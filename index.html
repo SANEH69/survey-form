@@ -24,5 +24,26 @@
               <label id="number-label">How many people will be occupying the place: <input type="number" id="number" placeholder="4" min=1 max=20 required/></label>
               <label>Enter the city you wish to stay in: <input type="text" placeholder="Durban" required/></label>
           </fieldset>
+          <fieldset class="query">
+            <label> Are you looking to rent or buy?
+              <br>
+              <input type="radio" value="rent" name="rent-buy" checked><label>Rent</label>
+            </label>
+            <br>
+            <input type="radio" value="buy" name="rent-buy"><label>Buy</label>
+            </label>
+            </fieldset>
+            <fieldset>
+            <label> What kind of apartment/house are you looking for?
+            <select id="dropdown">
+              <option>(Please select one)</option>
+              <option>Bachelor flat</option>
+              <option>Studio apartment</option>
+              <option>One-bedroom apartment</option>
+              <option>Two-bedrooms apartment</option>
+              <option>More than two-bedrooms apartment</option>
+            </select>
+            </label>
+          </fieldset>
           </form>
           </section>
