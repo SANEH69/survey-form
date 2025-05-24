@@ -1,0 +1,13 @@
+body {
+  background-color: grey;
+}
+form {
+  max-width: 80%;
+  margin: 0 auto;
+}
+fieldset {
+  border: none;
+}
+main h1, p {
+  text-align: center;
+}
